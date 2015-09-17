@@ -46,10 +46,12 @@ body {
 }
 
 .bizcard {
+    padding-top: 8em;
     background-image: url(../images/backboard.png);
     background-repeat: no-repeat;
+    background-position: center top;
     min-height: 33em;
-    margin: 0 auto;
+    margin: -14em auto 0;
     display: block;
     position: relative;
 }
@@ -57,19 +59,23 @@ body {
 .info {
     font-family: "Slabo 27px", serif;
     text-align: center;
+    margin-bottom: 0;
 }
 
+
 .skills {
-    letter-spacing: 2px
+    letter-spacing: 2px;
+    margin-bottom: 0.2em;
 }
 
 .name {
     letter-spacing: 2px;
+    margin-bottom: 0;
 }
 
 .me {
     z-index: 3;
-    margin: 0 auto;
+    margin: -12em auto;
     display: block;
     position: relative; 
 }
@@ -85,6 +91,13 @@ body {
 .skills {
     text-transform: uppercase;
 }
+
+.socialcontainer {
+    margin: -1em auto;
+    text-align: center;
+    max-width: 450px;
+}
+
 
 .fade {
 	margin:0;
