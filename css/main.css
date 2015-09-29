@@ -69,6 +69,8 @@ body {
     position: relative; 
 }
 
+
+
 .flowers {
     z-index: 3;
     display: block;
@@ -149,12 +151,22 @@ body {
 
 
 @media only screen and (min-width: 25em) {
+     
+     .me:hover {
+        -ms-transform: translateY(-40px);
+        -webkit-transform: translateY(-40px,); 
+        transform: translateY(-40px);
+        -ms-transform: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    
     .me {
         width: 80%;
         position: absolute;
         float: inherit;
         margin-left: 2em;
-        margin-top: -5em;
+        margin-top: -4em;
     }
     
     .flowers {
@@ -187,11 +199,21 @@ body {
 }
 
 @media only screen and (min-width: 38em) {
+    
+     .me:hover {
+        -ms-transform: translateY(-40px);
+        -webkit-transform: translateY(-40px,); 
+        transform: translateY(-40px);
+        -ms-transform: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    
     .me {
         width: 60%;
         position: absolute;
         float: inherit;
-        margin-top: -18em;
+        margin-top: -16em;
         margin-left: 8em;
         margin-bottom: ;
     }
@@ -227,7 +249,16 @@ body {
 }
 
 @media only screen and (min-width: 60em) {
-  .me {
+   .me:hover {
+        -ms-transform: translateY(-400px);
+        -webkit-transform: translateY(-400px,); 
+        transform: translateY(-400px);
+        -ms-transform: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    
+    .me {
         width: 60%;
         position: absolute;
         float: inherit;
@@ -271,6 +302,15 @@ body {
 }
 
 @media only screen and (min-width: 90em) {
+    .me:hover {
+        -ms-transform: translateY(-400px);
+        -webkit-transform: translateY(-400px,); 
+        transform: translateY(-400px);
+        -ms-transform: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    
     .me {
         width: 50%;
         position: absolute;
