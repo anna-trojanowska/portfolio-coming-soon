@@ -181,8 +181,6 @@ body {
     .skills {
         font-size: 20px;
     }
-    
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -227,8 +225,6 @@ body {
     .location {
         font-size: 24px;
     }
- 
-
 }
 
 @media only screen and (min-width: 90em) {
@@ -263,8 +259,6 @@ body {
         margin-bottom: 4em;
         display: block;
         position: relative;
-    }
- 
-        
+    }     
 }
 
