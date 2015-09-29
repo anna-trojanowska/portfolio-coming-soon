@@ -106,7 +106,16 @@ body {
 
 /********Media Queries********/
 
-@media only screen and (min-width: 16em) {
+@media only screen and (min-width: 15em) {
+    
+    .me:hover {
+        -ms-transform: translateY(-40px);
+        -webkit-transform: translateY(-40px,); 
+        transform: translateY(-40px);
+        -ms-transform: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
     
     .socialcontainer {
         width: 100%;
@@ -121,14 +130,14 @@ body {
     }
     
     .flowers {
-        width: 140%;
+        width: 160%;
         position: absolute;
         float: inherit;
-        margin-left: -3em;
+        margin-left: -5em;
     }
     
       .bizcard {
-        padding-top: 5em;
+        padding-top: 6em;
         margin-top: 4em;
         margin-bottom: 4em;
         display: block;
@@ -136,7 +145,8 @@ body {
     }
     
     .name {
-        font-size: 24px;
+        font-size: 28px;
+        letter-spacing: -0.2px;
     }
     
     .skills {
@@ -300,6 +310,60 @@ body {
         font-size: 24px;
     }
 }
+
+@media only screen and (min-width: 80em) {
+   .me:hover {
+        -ms-transform: translateY(-400px);
+        -webkit-transform: translateY(-400px,); 
+        transform: translateY(-400px);
+        -ms-transform: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    
+    .me {
+        width: 55%;
+        position: absolute;
+        float: inherit;
+        margin-left: 17em;
+        margin-top: -13em;
+    }
+    
+    .flowers {
+        width: 50%;
+        position: absolute;
+        float: inherit;
+        margin-left: 19em;
+        margin-top: -1em;
+    }
+    
+      .bizcard {
+        background-image: url(../images/backboard.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center top;
+        min-height: 33em;
+        padding-top: 8em;
+        margin-top: 4em;
+        margin-bottom: 4em;
+        display: block;
+        position: relative;
+    }
+    
+    .name {
+        font-size: 36px;
+    }
+    
+    .skills {
+        font-size: 28px;
+        letter-spacing: 3px; 
+    }
+    
+    .location {
+        font-size: 24px;
+    }
+}
+
 
 @media only screen and (min-width: 90em) {
     .me:hover {
