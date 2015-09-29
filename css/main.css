@@ -35,24 +35,13 @@ body {
 
 
 .banner {
-    background-color:#C2E4D3;
+    background-color:#C3D1CA;
     overflow: hidden;
     padding: 0;
     margin: 0;
     width: 100%;
     min-height: 100vh;
     background-size: 100px 100px;
-    position: relative;
-}
-
-.bizcard {
-    padding-top: 8em;
-    background-image: url(../images/backboard.png);
-    background-repeat: no-repeat;
-    background-position: center top;
-    min-height: 33em;
-    margin: -14em auto 0;
-    display: block;
     position: relative;
 }
 
@@ -70,19 +59,18 @@ body {
 
 .name {
     letter-spacing: 2px;
-    margin-bottom: 0;
+    margin-top: 1em;
+    margin-bottom: 0em;
 }
 
 .me {
     z-index: 3;
-    margin: -12em auto;
     display: block;
     position: relative; 
 }
 
 .flowers {
     z-index: 3;
-    margin: 0 auto;
     display: block;
     position: relative;
 }
@@ -93,9 +81,10 @@ body {
 }
 
 .socialcontainer {
-    margin: -1em auto;
+    margin: -1.5em auto;
     text-align: center;
     max-width: 450px;
+    margin-bottom: 0.2em;
 }
 
 
@@ -118,18 +107,163 @@ body {
 
 @media only screen and (min-width: 25em) {
     .me {
-        width: 
+        width: 80%;
+        position: absolute;
+        float: inherit;
+        margin-left: 2em;
+        margin-top: -5em;
+    }
+    
+    .flowers {
+        width: 120%;
+        position: absolute;
+        float: inherit;
+        margin-left: -2em;
+    }
+    
+      .bizcard {
+        padding-top: 10em;
+        margin-top: 4em;
+        margin-bottom: 4em;
+        display: block;
+        position: relative;
+    }
+    
+    .name {
+        font-size: 24px;
+    }
+    
+    .skills {
+        font-size: 20px;
+        letter-spacing: -0.5px;
+    }
+    
+    .location {
+        font-size: 18px;
 }
 
 @media only screen and (min-width: 38em) {
+    .me {
+        width: 60%;
+        position: absolute;
+        float: inherit;
+        margin-top: -18em;
+        margin-left: 8em;
+        margin-bottom: ;
+    }
+    
+    .flowers {
+        width: 70%;
+        position: absolute;
+        float: inherit;
+        margin-top: 0;
+        margin-left: 6em;
+    }
+        
+    .bizcard {
+        background-image: url(../images/backboard.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center top;
+        min-height: 33em;
+        padding-top: 5em;
+        margin-top: 4em;
+        margin-bottom: 4em;
+        display: block;
+        position: relative;
+    }
+    
+    .name {
+        font-size: 24px;
+    }
+    
+    .skills {
+        font-size: 20px;
+    }
+    
 
 }
 
 @media only screen and (min-width: 60em) {
+  .me {
+        width: 60%;
+        position: absolute;
+        float: inherit;
+        margin-left: 11em;
+        margin-top: -13em;
+    }
+    
+    .flowers {
+        width: 60%;
+        position: absolute;
+        float: inherit;
+        margin-left: 11em;
+        margin-top: -0.5em;
+    }
+    
+      .bizcard {
+        background-image: url(../images/backboard.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center top;
+        min-height: 33em;
+        padding-top: 8em;
+        margin-top: 4em;
+        margin-bottom: 4em;
+        display: block;
+        position: relative;
+    }
+    
+    .name {
+        font-size: 32px;
+    }
+    
+    .skills {
+        font-size: 28px;
+        letter-spacing: 3px; 
+    }
+    
+    .location {
+        font-size: 24px;
+    }
+ 
 
 }
 
 @media only screen and (min-width: 90em) {
-
+    .me {
+        width: 50%;
+        position: absolute;
+        float: inherit;
+        margin-top: -12em;
+        margin-bottom: auto;
+        margin-left: 19em;
+        margin-right: auto;
+    }
+    
+    .flowers {
+        width: 45%;
+        position: absolute;
+        float: inherit;
+        margin-top: -1em;
+        margin-bottom: auto;
+        margin-left: 21em;
+        margin-right: auto;
+    }
+    
+    .bizcard {
+        background-image: url(../images/backboard.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center top;
+        min-height: 33em;
+        padding-top: 8em;
+        margin-top: 4em;
+        margin-bottom: 4em;
+        display: block;
+        position: relative;
+    }
+ 
+        
 }
 
